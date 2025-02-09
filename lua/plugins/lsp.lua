@@ -163,6 +163,14 @@ return {
       --
       -- But for many setups, the LSP (`tsserver`) will work just fine
       -- ts_ls = {}, -- tsserver is deprecated
+      ada_ls = {
+        settings = {
+          ada = {
+            projectFile = "project.gpr";
+            scenarioVariables = {};
+          }
+        }
+      }
       ruff = {},
       pylsp = {
         settings = {
@@ -184,6 +192,7 @@ return {
       cssls = {},
       tailwindcss = {},
       dockerls = {},
+      java_language_server = {},
       sqlls = {},
       terraformls = {},
       jsonls = {},
