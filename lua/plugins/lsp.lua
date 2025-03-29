@@ -170,7 +170,7 @@ return {
             scenarioVariables = {};
           }
         }
-      }
+      },
       ruff = {},
       pylsp = {
         settings = {
