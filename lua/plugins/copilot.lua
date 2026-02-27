@@ -5,7 +5,7 @@ return {
     init = function()
       vim.g.copilot_nes_debounce = 500
     end,
-  }
+  },
   cmd = 'Copilot',
   event = "InsertEnter",
   panel = {
